@@ -14,11 +14,6 @@ import com.chrisdempewolf.pinterest.responses.pin.Pins
 import com.google.gson.Gson
 import org.apache.commons.io.IOUtils
 import org.apache.http.HttpStatus
-import org.apache.http.client.fluent.Form
-import org.apache.http.client.methods.HttpDelete
-import org.apache.http.client.methods.HttpPost
-import org.apache.http.client.fluent.Request
-
 import java.io.IOException
 import java.net.URI
 import java.net.URISyntaxException

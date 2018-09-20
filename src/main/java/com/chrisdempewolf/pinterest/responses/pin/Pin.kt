@@ -13,4 +13,6 @@ data class Pin(
         @SerializedName("created_at") val createdAt: String?,
         val color: String?,
         val attribution: Attribution?,
-        @SerializedName("metadata") val metaData: MetaData?)
+        @SerializedName("metadata") val metaData: MetaData?,
+        val image: Image?,
+        val media: Media?)

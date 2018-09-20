@@ -42,6 +42,8 @@ class PinFields : BaseFields() {
                 .withColor()
                 .withAttribution()
                 .withCreatedAt()
+                .withImage()
+                .withMedia()
         creatorFields.withAll()
         boardPinFields.withAll()
         return this
@@ -84,6 +86,16 @@ class PinFields : BaseFields() {
 
     fun withCreatedAt(): PinFields {
         fields = fields.plus("created_at")
+        return this
+    }
+
+    fun withImage(): PinFields {
+        fields = fields.plus("image")
+        return this
+    }
+
+    fun withMedia(): PinFields {
+        fields = fields.plus("media")
         return this
     }
 
